@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: blue;
+}
+
+#h1{
+    background-color: black;
+    color: white;
+}
+
+.cl1{
+    background-color: red;
+}
+
+.cl2{
+    color: white;
+}
+
+.cl3{
+    font-size: 50px;
+}
+
+.rgb{
+    background-color: rgb(255,0,0);
+}
+
+.hex{
+    background-color: #00ff00;
+}
+
+.hsl{
+    background-color: hsl(240,100%,50%);
+}
+
+.box{
+    background-color: lightblue;
+}
