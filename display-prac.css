@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: blue;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.block {
+    display: block;
+    background-color: yellow;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+}
+
+.none {
+    display: none;
+}
+
+.width1 {
+    background-color: lightblue;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.static {
+    position: static;
+    background-color: yellow;
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+    background-color: lightgreen;
+}
+
+.parent {
+    position: relative;
+    background-color: lightblue;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: orange;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.box1 {
+    position: relative;
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    z-index: 1;
+}
+
+.box2 {
+    position: relative;
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.overflow1 {
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.overflow2 {
+    background-color: lightgreen;
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.float1 {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.inlineblock {
+    display: inline-block;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
